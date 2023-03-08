@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha controllers/*.spec.js",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "dotenv": "^16.0.3",
+    "express": "4.16.4",
+    "morgan": "1.9.1",
+    "pg": "^8.10.0",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "nodemon": "1.18.4",
+    "sinon": "7.0.0"
+  }
+}
